@@ -4,10 +4,11 @@
 
 
 ## Variable declaration:
+* where var is keyword and x is variableName.
 ```js
          var x;
 ```
-* where var is keyword and x is variableName.
+
 
 ## Assignment:
 ``` js

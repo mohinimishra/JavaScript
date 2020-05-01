@@ -5,34 +5,39 @@
         var num=20;
 ```
 ## typeof :
+* typeof gives the types of the expressions weather it is number, string, boolean values etc.
 ```js
         var num=20;
         console.log(num);
         console.log(typeof num);
 ```
-* typeof gives the types of the expressions weather it is number, string, boolean values etc.
+
 
 ## Binary number
+* Binary number represented by (0b).
 ``` js
         var binary = 0b1010;
         console.log(binary)
         console.log(typeof binary);
 ```
-* Binary number represented by (0b).
+
 
 ## Octal number
+* Octal represented by (0).
 ```js
         var octal = 0234;
         console.log(octal);
 ```
-* Octal represented by (0).
+
 ##  Hexadecimal
+* Hexadecimal represented by (0x).
 ```js
         var hexa = 0xab23
         console.log(hexa);
 ```
-* Hexadecimal represented by (0x).
+
 ## Exponential
+* Exponentiol represented by 1e.
 ```js
         var bigNumber = 100050
 
@@ -43,7 +48,7 @@
         console.log(b)
         console.log(typeof b);
 ```
-* Exponentiol represented by 1e.
+
 ## NaN; (Not a number)
 ```js
         var divide = 10/'a';
@@ -115,18 +120,19 @@ var married = true;
 console.log(married);
 ```
 # Undefinde & Null :
+* When value is not assinged then it gives undefined datatype.
 ```js
 var t;
 
 console.log(typeof t)
 ```
-* When value is not assinged then it gives undefined datatype.
+* When null value assign.
 ``` js
 var g = null;
 
 console.log(g)
 console.log(typeof g)
 ```
-* When null value assign.
+
 
 
