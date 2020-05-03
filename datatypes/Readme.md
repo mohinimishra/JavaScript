@@ -134,5 +134,77 @@ console.log(g)
 console.log(typeof g)
 ```
 
+# Array:
+##  Declaration and assignment:
+``` js
+var array =[]
+```
+```js
+var joeRes = [12,40,60,20,34];
+console.log(joeRes.length)
+```
+#  Adding a new value:
+```js
+        joeRes[5] = 50; 
 
+        console.log(joeRes[5]);
+```
+# Update value
+```JS
+joeRes[1] = 45;
 
+console.log(joeRes);
+
+joeRes[10] = 45;
+
+console.log(joeRes);
+
+console.log(joeRes[7]);
+ 
+console.log(joeRes.length);
+```
+# Length Method:
+```js
+        var array=[1,2,3,4,'one'];
+
+        cosole.log(array.length);
+```
+# Push Method:
+* push method insert element from the last.
+```js
+        var array=[1,2,3,4,5];
+        array.push(2);
+```
+# Pop Method:
+* pop method remove element from the last.
+```js
+        var array=[1,2,3,4,5];
+        array.pop(2);
+```
+# Shift Method:
+* shift method remove element from the first.
+```js
+        var array=[1,2,3,4,5];
+        array.shift(2);
+```
+# Unshift Method:
+* unshift method insert element from the first.
+```js
+        var array=[1,2,3,4,5];
+        array.unshift(2);
+```
+# Object :
+* Object stores methods and properties in key-pair manner.
+```js
+        var obj = {};
+```
+```js
+        var obj ={
+                "name":'XYZ',
+                "age":23,
+                "gender":'female'
+        }
+
+        console.log(obj);
+        console.log(obj.name);
+```
