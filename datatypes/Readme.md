@@ -208,3 +208,19 @@ console.log(joeRes.length);
         console.log(obj);
         console.log(obj.name);
 ```
+
+# Bracket-Notation :
+```js
+        var obj = {
+        "name":"Joe",
+        age:27,
+        gender:"M"
+        }
+
+        var val1 = 'name';
+        var val2 = 'age';
+
+        // Bracket Notation
+        console.log(obj[val1])
+```
+

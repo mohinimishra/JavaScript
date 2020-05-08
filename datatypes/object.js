@@ -126,7 +126,17 @@ console.log(myInfo.result[1].session);
 
 
 
+var obj = {
+    "name":"Joe",
+    age:27,
+    gender:"M"
+}
 
+var val1 = 'name';
+var val2 = 'age';
+
+// Bracket Notation
+console.log(obj[val1])
 
 
 
