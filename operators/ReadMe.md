@@ -145,7 +145,7 @@
 
     output: True
 ```
-* Strict Equal === : Checks value nad type both.
+* Strict Equal === : Checks value and  type both.
 ```js
         var str = '10';
         var num = 10;

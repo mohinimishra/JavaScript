@@ -148,6 +148,8 @@ console.log(joeRes.length)
         joeRes[5] = 50; 
 
         console.log(joeRes[5]);
+
+output : [12, 40, 60, 20, 34, 50]
 ```
 # Update value
 ```JS
@@ -159,7 +161,7 @@ joeRes[10] = 45;
 
 console.log(joeRes);
 
-console.log(joeRes[7]);
+console.log(joeRes[7]); // undefined
  
 console.log(joeRes.length);
 ```
@@ -167,7 +169,7 @@ console.log(joeRes.length);
 ```js
         var array=[1,2,3,4,'one'];
 
-        cosole.log(array.length);
+        cosole.log(array.length); // count start from 1 to n
 ```
 # Push Method:
 * push method insert element from the last.

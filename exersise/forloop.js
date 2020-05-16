@@ -122,3 +122,13 @@
 // var num = 7;
 // var number;
 // number =  (num%2==0) ? console.log("even") : console.log("odd")
+
+// var joeRes = [12,40,60,20,34];
+
+// joeRes[10] = 45;
+
+// console.log(joeRes[7])
+
+var array = [1,2 ,3 ,4,5];
+array.shift(2);
+console.log(array)
