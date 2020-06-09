@@ -254,5 +254,176 @@
 // }
 
 
-var array = [1,2,3,4,5]
-console.log(push.array)
+// var array = [1,2,3,4,5]
+// console.log(push.array)
+
+// var array = [1, 2, 5, 8, 10];
+
+// for (i =(array.length-1); i>=0; i--) {
+//     console.log(array[i]);
+// }
+
+// var array = [2, 4, 6, 8, 10];
+// var array2 = [];
+// for (i=(array.length - 1); i>=0; i--)
+//  {
+//      array2.push( 2* array[i]);
+    
+// }
+// console.log(array2)
+
+
+// var array = [1, 2, 3, 4, 5];
+// for(i=0; i<((array.length-1)/2); i++) {
+//     var temp = array[i]
+//     array[i]  = array[array.length - 1 - i] ; 
+//     array[array.length -i-1] = temp;K
+   
+// }
+
+    
+// console.log(array
+//     )
+
+// var array = [3, 8, 9, 10, 14, 5]
+// var array1 = [];
+// for (i = 0; i<array.length; i++) {
+//     if (array[i] % 2 != 0 ) {
+//         array1.push(array[i])
+//     }
+// }
+// console.log(array1)
+
+// console.log(array.reverse())
+
+// var a = 0 ;
+// var b = 1 ;
+// var f ;
+// console.log(a)
+// console.log(b)
+// for (i=0; i<=5; i++) {
+   
+//     f = a + b;
+//     a = b;
+//     b = f;
+//     console.log(f)
+// }
+
+// var n = 5;
+// var result = 0;
+// for (var i=1; i<=5; i++) {
+//     result = i + result
+// } console.log(result)
+
+// var num = 10;
+// var obj = {}
+
+// obj.num = 10
+
+// console.log(obj)
+
+// var binary = 0b1001;
+// console.log(binary)
+// console.log(typeof binary)
+
+// var octal = 0234;
+// console.log(octal)
+// console.log(typeof octal)
+
+// var hexa = 0xab23;
+// console.log(hexa)
+// console.log(typeof hexa)
+
+// var num = 100050;
+// var ex = 1e+5+50;
+// var expo = 1e5+50;
+// console.log(expo)
+// console.log(typeof expo)
+
+// var divide = 10 / 'a';
+// console.log(divide);
+// console.log(typeof divide)
+
+// var numObj = new Number(10);
+// console.log(numObj)
+// console.log(typeof numObj)
+// var name = 'mohini';
+// var email = 'abc@gmail.com';
+// var pass = 1234;
+
+// var temp = `Dear ${name},
+// Thanks for Signup
+// Your acoount is created successfully. Please login with email ${email} and password ${pass}
+
+// Thank you`
+// console.log(temp)
+// console.log(temp.length);
+// console.log(typeof temp)
+
+// var myName = new String('Ashu');
+
+// console.log(myName);
+
+// console.log(typeof myName)
+// var areYouOld = false;
+
+// var married = true;
+
+// console.log(married);
+//     console.log(typeof married)
+
+// var g = null;
+// console.log(g)
+// console.log(typeof g)
+
+// var array = [5,1,2,3,4]
+// array[1] = 20
+// console.log(array)
+// console.log(array[9])
+
+// var mixed = [34, 'mohini', false, [3,5], {1 :'mohini'}]
+// console.log(mixed[48].length)
+
+// var array = [4,6,8,2]
+// array.push(5)
+// console.log(array)
+// console.log(array.length)
+// console.log(array[4])
+// array.pop(6)
+// console.log(array)
+// console.log(array.length)
+// array.unshift(9)
+// console.log(array)
+
+// var joeRes = {
+//     "math":20,
+//     "physics":30,6-
+//     "chemistry":40,
+//     "bio":45,
+//     "hindi":65
+// }
+// var val1 = "math";
+
+// console.log(joeRes.math)
+// console.log(joeRes[val1])
+
+// joeRes.math = 30;
+// console.log(joeRes.math)
+// console.log(joeRes)
+// joeRes.computer =60;
+// console.log(joeRes)
+
+// var m= 10;
+// z = m++;
+// console.log(z) 
+// z = m++;
+// console.log(z)
+
+// // var hello ;
+
+// // console.log(!hello);
+
+// var a = true;
+// var b = false ;
+// c = b -  a;
+// console.log(typeof c)

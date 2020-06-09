@@ -1,7 +1,7 @@
 var lang = "Python";
 
 switch(lang) {
-    case 'JS':
+    case 'JS0':
         console.log('Lang is JS');
     break;
     case 'Python':

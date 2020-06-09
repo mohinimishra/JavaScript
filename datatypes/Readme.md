@@ -175,7 +175,7 @@ console.log(joeRes.length);
 * push method insert element from the last.
 ```js
         var array=[1,2,3,4,5];
-        array.push(2);
+        array.push(2); //
 ```
 # Pop Method:
 * pop method remove element from the last.

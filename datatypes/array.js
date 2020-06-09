@@ -1,3 +1,5 @@
+
+
 // Declaration and assignment
 
 var data = [];
@@ -35,7 +37,7 @@ console.log(joeRes.length);
 
 var mixed = [23,'array',false,[2,4],{}];
 
-console.log(mixed[3][1]);
+console.log(mixed[3][1]);   
 
 
 // length
