@@ -1,0 +1,14 @@
+<!-- Write a JS Program ti create a new string adding "New!" in front of a given String. <br> -->
+<!-- if the given string begins with "New!", already then return the orignal string. -->
+
+<script>
+    function updateStr(str) {
+        if (!str.includes(`"New!"`)) {
+            return `"New!" ${str}`
+        } else {
+            return str
+        }
+    }
+    console.log(updateStr(`"New!" offer`))
+    console.log(updateStr(`offer`))
+</script>

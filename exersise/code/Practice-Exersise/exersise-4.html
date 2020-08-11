@@ -1,0 +1,13 @@
+<!-- Write a JS Program to get the current date. 
+Expected Output - mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy -->
+<script>
+    function getcurrentDate() {
+        let date = new Date()
+        let mm = date.getDate();
+        let dd = date.getMonth();
+        let yy = date.getFullYear();
+        console.log(`${mm}/${dd}/${yy}`)
+        console.log(`${mm}-${dd}-${yy}`)
+    }
+    getcurrentDate()
+</script>

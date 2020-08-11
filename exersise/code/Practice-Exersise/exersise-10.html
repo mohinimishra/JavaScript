@@ -1,0 +1,21 @@
+Write a JS program to check the string contains 2 to 4 ocuurence of a specified char.
+
+<script>
+    function checkChar(str, char) {
+        let arr = str.split('')
+        let array = []
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === char) {
+                array.push(arr[i])
+            }
+        }
+        if (array.length >= 2 && array.length <= 4) {
+            console.log(true)
+        } else {
+            console.log(false)
+        }
+    }
+    checkChar("javaaa", "a");
+    checkChar("ooohh!", "o")
+    checkChar("ooooohh!", "o")
+</script>

@@ -1,0 +1,25 @@
+WAP in JS function tha returns true if the provided predicate function is return true for all elememt in a collection,
+false otherwise.
+
+<script>
+
+    // 1-Method
+    let checkFunc = function (array, x) {
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] > x) {
+                return true
+            }
+            else {
+                return false
+            }
+        }
+    }
+    console.log(checkFunc([1, 2, 3, 4], 6))
+    console.log(checkFunc([1, 2, 3, 4], 0))
+    console.log(checkFunc([1, 2, 3, 4], 7))
+    console.log(checkFunc([1, 2, 3, 4], 3))
+
+    // 2-method
+    console.log([1, 2, 3, 4].every(x => x > 1))
+
+</script>

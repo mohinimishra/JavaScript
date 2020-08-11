@@ -1,0 +1,27 @@
+WAp in JS to compare two objects to determine if the first one containes the same propeties as the second one(which may
+also have additional properties.)
+
+<script>
+    let obj1 = { a: "A", b: "B" }
+    let obj2 = { a: "m", b: "B", c: "C", d: "D" }
+    let obj3 = { a: "A", b: "B", c: "C" }
+    let obj4 = { a: "A", b: "4", c: "3" }
+
+
+    let compareObj = function (obj1, obj2) {
+        let valueObj1 = Object.keys(obj1)
+        let valueObj2 = Object.keys(obj2)
+        for (let i = 0; i < valueObj2.length; i++) {
+            if (valueObj1[i] === valueObj2[i] && obj1[valueObj1[i]] == obj2[valueObj2[i]]) {
+                return true;
+            } else {
+                return false
+            }
+        }
+    }
+    console.log(compareObj(obj1, obj2))
+    console.log(compareObj(obj1, obj3))
+    console.log(compareObj(obj2, obj3))
+    console.log(compareObj(obj1, obj4))
+
+</script>

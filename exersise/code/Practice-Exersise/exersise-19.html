@@ -1,0 +1,12 @@
+WAP in JS to genrate a randoum hexadecimal code.
+
+<script>
+    let genrateHexaColor = function () {
+        let arr = []
+        for (let i = 0; i <= 5; i++) {
+            let randNum = parseInt(Math.random() * 16).toString(16)
+            arr[i] = randNum
+        } return `#${arr.join('')}`
+    }
+    console.log(genrateHexaColor())
+</script>

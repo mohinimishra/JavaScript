@@ -1,0 +1,11 @@
+Write a JS program to check whether a given array of integers is shorted in accending order.
+
+<script>
+    let checkArray = function (arr) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > arr[i + 1]) { return false }
+            else { return true }
+        }
+    }
+    console.log(checkArray([1, 2, 3, 4, 5]))
+</script>

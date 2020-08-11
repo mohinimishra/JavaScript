@@ -1,0 +1,9 @@
+Given two values, write a JS program to find out hich one is nearest to 100.
+
+<script>
+    let nearestNum = (a, b) => {
+        if ((100 - a) < (100 - b)) { return a }
+        else { return b }
+    }
+    console.log(nearestNum(99, 90))
+</script>

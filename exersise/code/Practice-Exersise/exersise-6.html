@@ -1,0 +1,15 @@
+<script>
+    let newStr = function (str) {
+        if (str.length >= 3) {
+            let firstChar = str.substr(0, 3)
+            let lastChar = str.slice(- 3)
+            return `${firstChar}${lastChar}`
+        } else {
+            return str
+        }
+    }
+    console.log(newStr("javascript"))
+    console.log(newStr("abc"))
+    console.log(newStr("mohini"))
+
+</script>

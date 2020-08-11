@@ -1,0 +1,14 @@
+* 23 - WAP in JS function to extract unique char from a string.
+
+<script>
+    let getUniqueChar = function (str) {
+        let unique = " "
+        for (let i = 0; i < str.length; i++) {
+            if (unique.indexOf(str.charAt(i)) === -1) {
+                unique += str[i]
+            }
+        }
+        return unique
+    }
+    console.log(getUniqueChar("aabbccggff"))
+</script>

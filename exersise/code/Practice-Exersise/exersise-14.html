@@ -1,0 +1,23 @@
+Write a JS program to get the largest even number from an array of integers.
+<script>
+    let largest = function (arr) {
+        let large = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > large) {
+                large = arr[i];
+            }
+        } return large;
+    }
+    let findNum = function (arr) {
+        let evenArr = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                evenArr.push(arr[i])
+            }
+        } return largest(evenArr);
+    }
+    console.log(findNum([12, 8, 1, 6, 3, 24]))
+    console.log(findNum([9, 3, 6, 20, 84, 15, 13]))
+    console.log(findNum([33, 44, 55, 66, 77]))
+
+</script>

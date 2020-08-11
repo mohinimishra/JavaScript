@@ -1,0 +1,10 @@
+WAP in JS to convert a comma-seprated value string to a 2D array. A new line indicates a new row array.
+<script>
+
+    let convertIntoArray = (str) => str.split('\n').map(row => row.split(','));
+
+    let string = `abc,def,geh
+gdfe,hgnkkj,khh`;
+
+    console.log(convertIntoArray(string))
+</script>
